@@ -1,0 +1,5 @@
+natijalar = (12, 18, 15)
+print(f"Jami ball: {sum(natijalar)}")
+indeks = natijalar.index(max(natijalar))
+print(f"Eng yaxshi urinish: {indeks + 1}")
+print(f"Eng yaxshi natija: {max(natijalar)}")
